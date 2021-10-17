@@ -1,0 +1,11 @@
+var styles = ['джаз', 'блюз'];
+console.log(styles);
+styles.push('рок-н-рол');
+console.log(styles);
+styles.splice(-2, 1, 'класика');
+console.log(styles);
+var removed = styles.splice(0, 1);
+alert( removed );
+console.log(styles);
+styles.unshift('реп', 'реггі');
+console.log(styles);
